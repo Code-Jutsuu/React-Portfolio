@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiCssdeck } from 'react-icons/di'; // Make sure to import this
+import { DiCssdeck } from 'react-icons/di'; 
 import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa'; 
 
 const Navbar = () => {
