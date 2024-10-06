@@ -1,6 +1,5 @@
 import { PROJECTS } from "../constants";
 
-
 const Projects = () => {
     
     return (
