@@ -1,8 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb"; // Added import for Next.js
-import { SiMongodb } from "react-icons/si"; // Added import for MongoDB
-import { DiRedis } from "react-icons/di"; // Added import for Redis
-import { FaNodeJs } from "react-icons/fa"; // Added import for Node.js
+import { TbBrandNextjs } from "react-icons/tb"; 
+import { SiMongodb, SiJavascript, SiTailwindcss } from "react-icons/si"; 
+import { FaNodeJs, FaHtml5, FaCss3, FaBootstrap } from "react-icons/fa"; 
 
 const Technologies = () => {
   return (
@@ -13,17 +12,27 @@ const Technologies = () => {
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <TbBrandNextjs className="text-7xl" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <SiMongodb className="text-7xl text-green-500" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <DiRedis className="text-7xl text-red-700" />
+          <FaHtml5 className="text-7xl text-red-500" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <FaCss3 className="text-7xl text-cyan-300" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <FaBootstrap className="text-7xl text-purple-700" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <FaNodeJs className="text-7xl text-green-500" />
         </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiJavascript className="text-7xl text-yellow-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiTailwindcss className="text-7xl text-cyan-500" />
+        </div>
+        
       </div>
     </div>
   );
